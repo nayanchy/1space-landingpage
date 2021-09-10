@@ -58,6 +58,20 @@ nav ul li:last-child {
   border-top: 1.5px solid red;
   z-index: -1;
 }
+
+.rectangle-left {
+  width: 70%;
+  height: 600px;
+  border-top: 1px solid #fd5b2f;
+  border-left: 1px solid #fd5b2f;
+  border-top-left-radius: 230px;
+  border-top-right-radius: 230px;
+  position: absolute;
+  bottom: 9px;
+  left: 180px;
+  z-index: -1;
+}
+
 .hero-main-img {
   background-image: url("../img/image50.jpg");
   background-size: cover;
@@ -528,4 +542,50 @@ nav ul li:last-child {
 .button-group {
   display: flex;
   gap: 30px;
+}
+
+.member-image {
+  text-align: right;
+}
+
+.member-right {
+  position: relative;
+}
+.footer-wrap {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  padding: 60px 0;
+  gap: 40px;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.social ul {
+  padding-left: 20px;
+}
+
+.social ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.social ul li:nth-last-of-type(1) {
+  padding-right: 0;
+}
+
+.social ul li a {
+  color: #fd5b2f;
+}
+
+footer ul li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.footer-heading {
+  color: #fd5b2f;
 }
